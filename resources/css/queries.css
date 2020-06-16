@@ -1,0 +1,112 @@
+/* Widths smaller than 1140px row (--main-width) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*  Tablet Landscape 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 16px; }
+
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .works-col:last-child { padding-top: 10px; }
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 40px; }
+    .app-screen { width: 45% }
+    .btn-app img { 
+        height: 40px;
+    }
+
+    .section-contact form { width: 80%; }
+}
+
+/*  Tablet Portrait 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .nav-main {
+        display: none;
+    }
+
+    .mobile-nav-icon { display: inline-block; }
+
+    .nav-sticky .mobile-nav-icon ion-icon {
+        color: var(--colour-dark);
+    }
+
+    .nav-main {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .nav-main li {
+        display: block;
+    }
+
+    .nav-main li a:link,
+    .nav-main li a:visited
+    {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+    }
+
+    .hero-text-box {
+        height: 100vh;
+    }
+
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Stack grid columns amd remove the column margin*/
+    .col { 
+        width: 100%;
+        margin: 1% 0;  
+    }
+
+    .form-row {
+        display: block
+    }
+
+    .works-col:first-child { text-align: center; }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section-features .long-copy {
+        margin-bottom: 0;
+    }
+
+    .section-contact form { width: 100%; }
+
+    .app-screen { width: 30% }
+
+    .btn-app-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+/* Small Phone 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
